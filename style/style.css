@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    top: 0;
+    align-items: center;
+}
+.name{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+li{
+    display: inline-block; 
+    padding: 10px;
+    list-style: none;
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 9px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a{
+    margin: 10px; 
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+}
+button a{
+    color: whitesmoke;
+}
+.done{
+    text-align: center;
+}
+.done img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        background: #222;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .run {
+        flex-direction: column;
+    }
+}
+.run{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    max-width: 100%;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+.container{
+    background-color: whitesmoke;
+    max-width: 500px;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+.cut{
+    text-align: justify;
+}
+.fun{
+    background-color: lightgray;
+    text-align: center;
+     padding: 1.5px;
+     border-radius: 6px;
+}
+.xf{
+    background-color: lightgray;
+    max-width: 100%;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+.jf{
+    display: flex;
+    justify-content: space-between;
+}
+.jf p{
+    text-align: justify;
+    border-radius: 8px;
+    max-width: 50%;
+    height: 100px;
+    justify-content: space-between;
+    left: 50px;
+}
+.pain {
+    max-width: 500px;
+    margin: auto;
+}
+
+.pain .feild {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pain label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.hi button {
+    background: #ff9800;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hi button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hi button:hover {
+    background: #e68900;
+}
